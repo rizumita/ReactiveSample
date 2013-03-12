@@ -9,5 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface CTViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (weak, nonatomic) IBOutlet UIButton *logInButton;
+@property (weak, nonatomic) IBOutlet UIButton *twitterButton;
+@property (weak, nonatomic) IBOutlet UILabel *twitterLabel;
 @end

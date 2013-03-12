@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA601F716EEF99B00710DA7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA601F616EEF99B00710DA7 /* Social.framework */; };
+		6AA601F916EEF9B200710DA7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA601F816EEF9B200710DA7 /* Accounts.framework */; };
 		6AA8BF9D16EE07FA002563F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8BF9C16EE07FA002563F2 /* UIKit.framework */; };
 		6AA8BF9F16EE07FA002563F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8BF9E16EE07FA002563F2 /* Foundation.framework */; };
 		6AA8BFA116EE07FA002563F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AA8BFA016EE07FA002563F2 /* CoreGraphics.framework */; };
@@ -18,9 +20,13 @@
 		6AA8BFB316EE07FA002563F2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8BFB216EE07FA002563F2 /* Default-568h@2x.png */; };
 		6AA8BFB616EE07FA002563F2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AA8BFB416EE07FA002563F2 /* MainStoryboard.storyboard */; };
 		6AA8BFB916EE07FA002563F2 /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA8BFB816EE07FA002563F2 /* CTViewController.m */; };
+		9EA13CA6C3A64474848FED27 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9435CE45BC94BCA8F863D1C /* libPods.a */; };
+		CB8761775D525F94F375396F /* TwitterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB87628569BBB232F8B107EA /* TwitterManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA601F616EEF99B00710DA7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		6AA601F816EEF9B200710DA7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		6AA8BF9916EE07FA002563F2 /* ReactiveSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AA8BF9C16EE07FA002563F2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6AA8BF9E16EE07FA002563F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +43,10 @@
 		6AA8BFB516EE07FA002563F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		6AA8BFB716EE07FA002563F2 /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
 		6AA8BFB816EE07FA002563F2 /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+		B076CB1C1F8A432DA1F9B132 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		B9435CE45BC94BCA8F863D1C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB87628569BBB232F8B107EA /* TwitterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterManager.m; sourceTree = "<group>"; };
+		CB8768D23BC07232BA2BE7AE /* TwitterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +54,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AA601F916EEF9B200710DA7 /* Accounts.framework in Frameworks */,
+				6AA601F716EEF99B00710DA7 /* Social.framework in Frameworks */,
 				6AA8BF9D16EE07FA002563F2 /* UIKit.framework in Frameworks */,
 				6AA8BF9F16EE07FA002563F2 /* Foundation.framework in Frameworks */,
 				6AA8BFA116EE07FA002563F2 /* CoreGraphics.framework in Frameworks */,
+				9EA13CA6C3A64474848FED27 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 				6AA8BFA216EE07FA002563F2 /* ReactiveSample */,
 				6AA8BF9B16EE07FA002563F2 /* Frameworks */,
 				6AA8BF9A16EE07FA002563F2 /* Products */,
+				B076CB1C1F8A432DA1F9B132 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,9 +87,12 @@
 		6AA8BF9B16EE07FA002563F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6AA601F816EEF9B200710DA7 /* Accounts.framework */,
+				6AA601F616EEF99B00710DA7 /* Social.framework */,
 				6AA8BF9C16EE07FA002563F2 /* UIKit.framework */,
 				6AA8BF9E16EE07FA002563F2 /* Foundation.framework */,
 				6AA8BFA016EE07FA002563F2 /* CoreGraphics.framework */,
+				B9435CE45BC94BCA8F863D1C /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,6 +106,8 @@
 				6AA8BFB716EE07FA002563F2 /* CTViewController.h */,
 				6AA8BFB816EE07FA002563F2 /* CTViewController.m */,
 				6AA8BFA316EE07FA002563F2 /* Supporting Files */,
+				CB87628569BBB232F8B107EA /* TwitterManager.m */,
+				CB8768D23BC07232BA2BE7AE /* TwitterManager.h */,
 			);
 			path = ReactiveSample;
 			sourceTree = "<group>";
@@ -117,6 +136,7 @@
 				6AA8BF9516EE07FA002563F2 /* Sources */,
 				6AA8BF9616EE07FA002563F2 /* Frameworks */,
 				6AA8BF9716EE07FA002563F2 /* Resources */,
+				95C3D071E487462BA0BE07FB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +189,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		95C3D071E487462BA0BE07FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6AA8BF9516EE07FA002563F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -177,6 +214,7 @@
 				6AA8BFA916EE07FA002563F2 /* main.m in Sources */,
 				6AA8BFAD16EE07FA002563F2 /* CTAppDelegate.m in Sources */,
 				6AA8BFB916EE07FA002563F2 /* CTViewController.m in Sources */,
+				CB8761775D525F94F375396F /* TwitterManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +265,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -251,7 +289,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -260,6 +298,7 @@
 		};
 		6AA8BFBD16EE07FA002563F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B076CB1C1F8A432DA1F9B132 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactiveSample/ReactiveSample-Prefix.pch";
@@ -271,6 +310,7 @@
 		};
 		6AA8BFBE16EE07FA002563F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B076CB1C1F8A432DA1F9B132 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ReactiveSample/ReactiveSample-Prefix.pch";
@@ -299,6 +339,7 @@
 				6AA8BFBE16EE07FA002563F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
